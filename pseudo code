@@ -1,0 +1,71 @@
+start
+
+INPUT:
+
+
+   1. prompt user to input salary & store it on variable salary
+   2.under primary need
+        -prompt user to input
+            -loans amount     & store it on variable loans
+            -fees amount     &store it on variable fees
+            -bills amount    & store it on variable bills
+            -health amount   & store it on variable health
+            -Emergency amount &store it on variable emergency
+            -rent amount     & store it on variable rent
+            -shopping amount  &store it on variable shopping
+
+  3.under secondary need
+        -prompt user to input
+            -subscription amount     & store it seperately on variable
+                                          Netflix
+                                          Amazon Prime
+                                          Hotstar
+                                          Other
+                                     & provide link to add their accounts
+            -insurance amount     &store it on variable insurance
+  4.Under My Dreams   
+        -prompt user to input
+            -Their dream of purchase and store it in variable title 
+            -Expected year to complete it and store it in variable expectedyear
+            -maximum budget of the product  and store it in variable maxbudget
+From the data user entered we calculate the remaining balance he left after utilising it for his primary and secondary needs 
+And print the status of his usage in Home
+
+OUTPUT:
+  1.Under Home
+        we shows the status of his balance and reminds the important needs 
+  2.Under My Dreams
+        we shows the status of his interested purchase list and automatically calculate the monthly amount to save and reminds with a graphical array
+        cash backs and bonuses are available when my dreams are completed in proper time so as to ensure the stickness to the plan
+  3.Under Suggestions
+        Here with the balace left he gets suggestions depending on how to spend the money more wisely   
+                        eg: By utilising a proper retirement plan suggested
+                            By utilising a proper Career plan suggested
+                                           we provide direct link to the prefered platforms for the above mentioned 
+        suggestions also includes lifestyle needs based on the final balance left
+  4.Under data
+        User gets a graphical view on his spending and analytical view on his expenditure in various months so that he can compare it freely
+  5.Under Shopping
+        Here user gets shopping analytics based on his previous spending and get shoppings suggestions
+
+Equations used
+      Reamining Balance=Salary-sum all variable under primary needs and secondary needs
+      Based on the remaining balance program detects the spending patterns and organise it accordingly
+    Under My dreams
+      From the remaining balance the amount needed per month for the purchase that is:
+                            total money for the purchase/number of months  are calculated and saved accordingly only depending to the balance amount
+
+Notifications
+   Notifications include:
+                        1)Suggestion notification:
+                                              -Any government plans (eg:retirement,educational) 
+                                              -notification on lifestyle products which may be useful(notification only inside the     interface) and only based on the remailing balance
+
+                        2)subscription notification
+                                              -Gets notifications when subscription is about to end
+                                              -Offers and discounts(notification only inside interface)
+                                    
+                        3)My Dream Notification
+                                              -Notification when alloted period come to an end
+                                              -when failed to save amount in any month
+END
